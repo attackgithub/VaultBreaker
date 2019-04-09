@@ -6,7 +6,7 @@ VaultBreaker is a Proof of Concept that demonstrates different attacks that can 
   - Memory Parsing 
   - Proxying
 
-Please Note: This Proof of Concept is currently in Alpha and as such has limited support. I plan on increasing support as I find more ways to parse manager memory.
+Please Note: This Proof of Concept is currently in Alpha and as such has limited support. I plan on increasing support as I find more ways to parse manager memory. Additionally, it's probably going to have some major bugs. So feel free to submit issues as you encounter them and I'll take a look.
 
 # Clipboard Event Hooking
 Based on the code from SharpClipboard located at https://github.com/justinbui/SharpClipboard. This will spin up a listener and listen for clipboard events from specific windows, (e.g. BitWarden, LastPass, 1Pass, password, login, etc etc) and will output the clipboard content when triggered.
